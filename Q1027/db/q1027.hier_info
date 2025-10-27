@@ -1,0 +1,10 @@
+|q1027
+pin_name11 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+pin_name => inst8.IN0
+pin_name => inst.IN0
+pin_name3 => inst8.IN1
+pin_name3 => inst9.IN1
+pin_name2 => inst9.IN0
+pin_name2 => inst.IN1
+
+
