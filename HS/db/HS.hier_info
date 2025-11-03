@@ -1,0 +1,9 @@
+|HS
+D <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst1.IN1
+Bo <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
