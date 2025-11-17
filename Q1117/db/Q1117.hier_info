@@ -1,0 +1,30 @@
+|Q1117
+A => b.IN0
+A => c.IN0
+A => a.IN1
+A => e.IN0
+A => e.IN0
+A => f.IN0
+A => g.IN0
+A => d.DATAIN
+B => a.IN0
+B => b.IN0
+B => b.IN1
+B => g.IN1
+B => b.IN1
+B => c.IN1
+B => e.IN1
+C => a.IN1
+C => c.IN1
+C => f.IN1
+C => b.IN1
+C => e.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= A.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+
