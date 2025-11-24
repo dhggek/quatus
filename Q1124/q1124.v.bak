@@ -1,0 +1,13 @@
+module q1124(X,Y,Z,A,B,C,D,E,F,G)
+input X,Y,Z;
+output A,B,C,D,E,F,G;
+
+assign A=~X&~Y|~Y&~Z|X&Y;
+assign B=~X&Z|Y&~Z;
+assign C=~X|~Y&~Z|Y&Z;
+assign D=~Y&~Z|X&Y;
+assign E=~X&Z|X&Y&~Z;
+assign F=~Y&~Z|~X&~Y|Y&Z;
+assign G=X|~Y&~Z|~X&Z;
+
+endmodule
