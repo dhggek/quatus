@@ -1,0 +1,34 @@
+|q12000
+A => g.IN0
+A => g.IN0
+A => e.IN0
+A => e.IN0
+A => e.IN0
+A => l.IN0
+B => g.IN0
+B => g.IN1
+B => e.IN1
+B => e.IN1
+B => e.IN1
+B => l.IN0
+C => e.IN1
+C => e.IN1
+C => l.IN1
+C => l.IN1
+C => g.IN1
+C => g.IN1
+C => e.IN1
+C => e.IN1
+D => e.IN1
+D => e.IN1
+D => l.IN1
+D => l.IN1
+D => g.IN1
+D => g.IN1
+D => e.IN1
+D => e.IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+l <= l.DB_MAX_OUTPUT_PORT_TYPE
+
+
